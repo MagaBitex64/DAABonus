@@ -20,8 +20,8 @@ A Java program that builds a Minimum Spanning Tree, removes an edge, and finds a
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/mst-edge-reconnection.git
-cd mst-edge-reconnection
+git clone https://github.com/yourusername/DAABonus.git
+cd DAABonus
 ```
 
 ### Run the program
@@ -32,7 +32,7 @@ mvn clean compile exec:java -Dexec.mainClass="com.mst.MSTManager"
 ### Or create a JAR file and run it
 ```bash
 mvn clean package
-java -jar target/mst-edge-reconnection-1.0.0-jar-with-dependencies.jar
+java -jar target/DAABonus-1.0.0-jar-with-dependencies.jar
 ```
 
 ## Example Output
@@ -72,7 +72,7 @@ Weight difference: +4
 ## Project Structure
 
 ```
-mst-edge-reconnection/
+DAABonus/
 ├── src/main/java/com/mst/
 │   ├── Edge.java          - Represents edges in the graph
 │   ├── UnionFind.java     - Used for cycle detection
